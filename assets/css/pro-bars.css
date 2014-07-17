@@ -1,4 +1,4 @@
-/*	ProBars v1.0, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
+/*	ProBars v1.1, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
 //	=============================================================================== */
 
 	.pro-bar-container {
@@ -15,14 +15,6 @@
 		background: #222;
 		overflow: hidden;
 	}
-
-	/* For use in conjunction with the Backbone Responsive Framework - https://github.com/joemottershaw/backbone */
-		.pro-bar-container.bm-remove	{ margin-bottom: 0;    }
-		.pro-bar-container.bm-smaller	{ margin-bottom: 5px;  }
-		.pro-bar-container.bm-small		{ margin-bottom: 10px; }
-		.pro-bar-container.bm-medium	{ margin-bottom: 20px; }
-		.pro-bar-container.bm-large		{ margin-bottom: 30px; }
-		.pro-bar-container.bm-larger	{ margin-bottom: 40px; }
 
 	/* Colors used with the FlatUI Color Scheme - http://www.flatuicolors.com/ */
 		.pro-bar-container.color-turquoise		{ border-color: #1abc9c; background: #1abc9c; }

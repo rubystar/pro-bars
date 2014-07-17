@@ -1,4 +1,4 @@
-ProBars v1.0
+ProBars v1.1
 ============
 
 Stylish progress bars that animate as they enter the viewport.
@@ -9,11 +9,11 @@ Stylish progress bars that animate as they enter the viewport.
 Usage
 =====
 
-Link both 'pro-bars.min.css', 'pro-bars.min.js' and 'visible.min.js' (TeamDF) to your document.
+Link both 'pro-bars.min.css', 'pro-bars.min.js' and 'appear.min.js' to your document.
 Using ProBars requires a simple HTML markup and a few select class names.
 It also uses the [Flat UI Color Scheme](http://flatuicolors.com/) to help style the progress bars, if color classes aren't provided it uses a default grey color scheme.
 There are 2 data attributes you must specify `data-pro-bar-percent` is how far the bar will animate to and `data-pro-bar-delay` to set a delay on the animation.
-Since it relies on jQuery to animate the bars length from 0 to 'x', applying the class `bar-*` to the `pro-bar` element works as a CSS fallback.
+Since it relies on jQuery to animate the bars length from 0 to 'x', applying the class `bar-*` to the `pro-bar` element and it will set the width as a CSS fallback (non animated).
 
 ```
 <div class="pro-bar-container color-nephriti">
@@ -40,12 +40,6 @@ Browser Compatibility
 </ul>
 
 
-Limitations
-===========
-
-Since this uses Digital Fusions' visible plugin to animate elements as they enter the viewport, the same limitations apply to this plugin also, in that it will not check for visibility in nested scrollable areas, only on the main viewport (window object).
-
-
 Author
 ======
 
@@ -54,10 +48,10 @@ http://www.cloud-eight.com
 
 
 Credits
-======
+=======
 
-Visible.js, TeamDF, Digital Fusion<br />
-http://www.teamdf.com
+jquery.appear, bas2k<br />
+https://github.com/bas2k/jquery.appear
 
 Flat UI Colors, Ahmet Sülek<br />
 http://flatuicolors.com/
