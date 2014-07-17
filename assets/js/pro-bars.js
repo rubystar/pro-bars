@@ -1,7 +1,7 @@
 //	ProBars v1.1, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
 //	===============================================================================
 
-	function animateProgressBar() {
+	$(document).ready(function() {
 		$('.pro-bar').each(function(i, elem) {
 			var	$elem = $(this),
 				percent = $elem.attr('data-pro-bar-percent'),
@@ -16,19 +16,4 @@
 				}, delay);
 			});
 		});
-	}
-
-	$(document).ready(function() {
-		animateProgressBar();
-	});
-
-	$(window).resize(function() {
-		animateProgressBar();
-	});
-
-	$(window).scroll(function() {
-		animateProgressBar();
-
-		if ($(window).scrollTop() + $(window).height() == $(document).height())
-			animateProgressBar();
 	});
