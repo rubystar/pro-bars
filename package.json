@@ -1,0 +1,22 @@
+{
+  "name": "pro-bars",
+  "version": "1.1.0",
+  "description": "Stylish progress bars that animate as they enter the viewport.",
+  "main": "assets/js/pro-bars.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joemottershaw/pro-bars.git"
+  },
+  "keywords": [
+    "pro-bars",
+    "progress-bars"
+  ],
+  "author": "Joe Mottershaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joemottershaw/pro-bars/issues"
+  }
+}
